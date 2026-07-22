@@ -296,6 +296,8 @@ h1 em, h2 em { font-style: italic; color: var(--terra); }
 .footer-grid { display: grid; grid-template-columns: 1.4fr 1fr 1fr 1fr; gap: 2.5rem; padding-bottom: 2.8rem; }
 .brand-footer .brand-word { color: var(--on-dark); }
 .footer-tag { margin-top: 1rem; font-size: 0.9rem; color: var(--on-dark-soft); }
+.footer-details { margin-top: 1rem; font-size: 0.82rem; line-height: 1.7; color: var(--on-dark-soft); }
+.footer-details strong { color: var(--on-dark); letter-spacing: 0.04em; }
 .footer-col h4 { font-size: 0.78rem; font-weight: 700; letter-spacing: 0.1em; text-transform: uppercase; color: #E08B5F; margin-bottom: 1rem; }
 .footer-col a { display: block; color: var(--on-dark-soft); text-decoration: none; font-size: 0.9rem; padding: 0.25rem 0; }
 .footer-col a:hover { color: var(--on-dark); }
