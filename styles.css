@@ -123,9 +123,14 @@ h1 em, h2 em { font-style: italic; color: var(--terra); }
 .stack-label { font-size: 0.78rem; font-weight: 600; letter-spacing: 0.1em; text-transform: uppercase; color: var(--ink-soft); white-space: nowrap; }
 .stack-strip ul { list-style: none; display: flex; flex-wrap: wrap; gap: 0.6rem; }
 .stack-strip li {
+  display: inline-flex; align-items: center; gap: 0.5rem;
   font-size: 0.85rem; font-weight: 600; color: var(--ink-soft);
-  border: 1px solid var(--line); border-radius: 999px; padding: 0.4rem 0.95rem; background: var(--cream);
+  border: 1px solid var(--line); border-radius: 999px; padding: 0.45rem 1rem; background: var(--cream);
+  transition: color 0.15s ease, border-color 0.15s ease;
 }
+.stack-strip li:hover { color: var(--terra-deep); border-color: var(--terra-soft); }
+.stack-ic { width: 15px; height: 15px; flex-shrink: 0; opacity: 0.85; }
+.stack-ic-wide { width: 19px; }
 
 /* ---------- sections ---------- */
 .section { padding: 5.5rem 0; }
