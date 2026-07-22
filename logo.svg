@@ -1,0 +1,13 @@
+<svg viewBox="0 0 64 64" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Roberto Creations logo">
+  <defs>
+    <linearGradient id="rcGrad" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#C96A3E" />
+      <stop offset="100%" stop-color="#8A3B1D" />
+    </linearGradient>
+  </defs>
+  <rect width="64" height="64" rx="16" fill="url(#rcGrad)" />
+  <rect x="3.5" y="3.5" width="57" height="57" rx="13.5" fill="none" stroke="rgba(255,247,239,0.28)" stroke-width="1" />
+  <text x="32" y="39" text-anchor="middle" font-family="Georgia, 'Times New Roman', serif" font-weight="700" font-size="26" fill="#FFF7EF" letter-spacing="-1">RC</text>
+  <path d="M16 47 C 24 52.5, 40 52.5, 47 46" fill="none" stroke="#F0C9AF" stroke-width="2" stroke-linecap="round" />
+  <circle cx="48.6" cy="45.4" r="1.8" fill="#F0C9AF" />
+</svg>
