@@ -274,6 +274,8 @@ h1 em, h2 em { font-style: italic; color: var(--terra); }
 .company-card dl { display: grid; gap: 0.9rem; }
 .company-card dt { font-size: 0.72rem; font-weight: 700; letter-spacing: 0.1em; text-transform: uppercase; color: #E08B5F; }
 .company-card dd { font-size: 0.95rem; color: var(--on-dark-soft); margin-bottom: 0.3rem; }
+.company-card dd a { color: var(--on-dark-soft); text-decoration: none; }
+.company-card dd a:hover { color: #E08B5F; }
 
 /* ---------- contact ---------- */
 .contact-grid { display: grid; grid-template-columns: 1fr 1.1fr; gap: 3.5rem; align-items: start; }
@@ -303,6 +305,8 @@ h1 em, h2 em { font-style: italic; color: var(--terra); }
 .footer-tag { margin-top: 1rem; font-size: 0.9rem; color: var(--on-dark-soft); }
 .footer-details { margin-top: 1rem; font-size: 0.82rem; line-height: 1.7; color: var(--on-dark-soft); }
 .footer-details strong { color: var(--on-dark); letter-spacing: 0.04em; }
+.footer-details a { color: var(--on-dark-soft); text-decoration: none; }
+.footer-details a:hover { color: var(--on-dark); }
 .footer-col h4 { font-size: 0.78rem; font-weight: 700; letter-spacing: 0.1em; text-transform: uppercase; color: #E08B5F; margin-bottom: 1rem; }
 .footer-col a { display: block; color: var(--on-dark-soft); text-decoration: none; font-size: 0.9rem; padding: 0.25rem 0; }
 .footer-col a:hover { color: var(--on-dark); }
